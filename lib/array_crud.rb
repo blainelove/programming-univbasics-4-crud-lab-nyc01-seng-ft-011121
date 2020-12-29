@@ -3,12 +3,12 @@ def create_an_empty_array
 end
 
 def create_an_array
-  bill = [0, 1, 2, 3]
+  [0, 1, 2, 3]
 end
 
 def add_element_to_end_of_array(array, element)
-  bill = [0, 1, 2, 3]
-  bill<<("item")
+  [0, 1, 2, 3]
+  <<("item")
 end
 
 def add_element_to_start_of_array(array, element)
